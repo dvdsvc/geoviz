@@ -1,0 +1,46 @@
+{
+  "snapshot_date": "2026-10-26",
+  "scope": "Local artifact inventory, not independently validated geological ground truth.",
+  "normalized_sample_records": 437,
+  "unique_sample_ids": 330,
+  "spot_records": 1209,
+  "spot_sample_ids": 69,
+  "spots_with_matching_sample_ids": 1048,
+  "unique_reference_labels": 23,
+  "original_files": [
+    {
+      "path": "frontend/src/data/realSamples.json",
+      "sha256": "f1aef411331082f6ec6a878bc9134afd96ca83c7b350f6e344e8aacd61edc7ce"
+    },
+    {
+      "path": "frontend/src/data/realSpots.json",
+      "sha256": "f8293ac5c27cf7dced5f5d9d563aff7ec2be59f61c1ab77b611b3d98db8fdb6e"
+    }
+  ],
+  "frontend_git": {
+    "initial_commit": "353659043b7a0b34c93a2d7bde283834785ceaed",
+    "committed_log_entries": 1,
+    "interpretation": "The committed history is the Create Next App scaffold; application changes are local/uncommitted."
+  },
+  "original_data_distributed": false,
+  "external_graphrag_artifacts": {
+    "nodes": 479,
+    "edges": 1174,
+    "community_reports": 18,
+    "files": [
+      {
+        "path": "graph.json",
+        "sha256": "a21b9c3dde7cdd36dd5684ec90e739f0ce343fe4fa1860e541e9fd1b7ee2bf07"
+      },
+      {
+        "path": "communities.json",
+        "sha256": "ca7d36104904021c459674029fadfab96b6cbeece2466f345817f3a9180292b1"
+      },
+      {
+        "path": "community_reports.json",
+        "sha256": "5ac512575fb1d04d51d95e0661efceaa8f656bd5a93912eb3931b8de6303bb66"
+      }
+    ],
+    "scope": "Prebuilt external artifact counts; scientific report correctness not independently evaluated."
+  }
+}

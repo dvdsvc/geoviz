@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<rect width="900" height="1200" fill="white"/><g font-family="sans-serif" fill="#1e293b">
+<text x="80" y="100" font-size="31" font-weight="bold">SYNTHETIC DATA SHEET</text>
+<text x="80" y="145" font-size="17">Generated demonstration. No source publication or measured observations.</text>
+<text x="80" y="240" font-size="21">DEMO01 | 103.0 Ma | SYNTHETIC</text><text x="80" y="318" font-size="21">DEMO02 | 110.0 Ma | SYNTHETIC</text><text x="80" y="396" font-size="21">DEMO03 | 118.0 Ma | SYNTHETIC</text><text x="80" y="474" font-size="21">DEMO04 | 125.0 Ma | SYNTHETIC</text><text x="80" y="552" font-size="21">DEMO05 | 130.0 Ma | SYNTHETIC</text><text x="80" y="630" font-size="21">DEMO06 | 138.0 Ma | SYNTHETIC</text><text x="80" y="708" font-size="21">DEMO07 | 145.0 Ma | SYNTHETIC</text><text x="80" y="786" font-size="21">DEMO08 | 150.0 Ma | SYNTHETIC</text><text x="80" y="1030" font-size="17">Coordinates and values illustrate the GeoViz interface only.</text>
+</g></svg>

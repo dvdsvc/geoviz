@@ -1,0 +1,9 @@
+{
+  "kind": "synthetic demonstration only",
+  "samples": 8,
+  "spots": 48,
+  "provenance_fields": 8,
+  "source_paper_used": false,
+  "historical_observations_used": false,
+  "legacy_frontend_filenames": "realSamples.json / realSpots.json kept for import compatibility; contents are synthetic."
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="112" viewBox="0 0 920 112" role="img" aria-labelledby="title desc">
+<title id="title">GeoViz exploration workflow</title><desc id="desc">Map, sample, spot, age and source-page exploration connected in sequence.</desc>
+<rect width="920" height="112" rx="14" fill="#f1f5f9"/>
+<path d="M90 56H830" stroke="#94a3b8" stroke-width="3"/>
+<g fill="#0f766e"><rect x="24" y="26" width="140" height="60" rx="10"/><rect x="207" y="26" width="140" height="60" rx="10"/><rect x="390" y="26" width="140" height="60" rx="10"/><rect x="573" y="26" width="140" height="60" rx="10"/><rect x="756" y="26" width="140" height="60" rx="10"/></g>
+<g fill="white" font-family="sans-serif" font-size="18" text-anchor="middle"><text x="94" y="62">Map</text><text x="277" y="62">Sample</text><text x="460" y="62">Spot</text><text x="643" y="62">Age</text><text x="826" y="62">Source page</text></g>
+</svg>

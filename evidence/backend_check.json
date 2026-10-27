@@ -1,0 +1,16 @@
+{
+  "mode": "offline synthetic checks",
+  "samples": 8,
+  "spots": 48,
+  "keyword_matches": 4,
+  "weighted_mean": 103,
+  "weighted_error": 0.5774,
+  "mswd": 6.2,
+  "provenance_fields": 8,
+  "source_page_served": true,
+  "graph_nodes": 30,
+  "graph_edges": 102,
+  "generated_pdf_match_method": "page_lcs_fuzzy",
+  "live_model_called": false,
+  "passed": true
+}

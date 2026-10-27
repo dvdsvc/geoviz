@@ -1,0 +1,187 @@
+{
+  "paper_name": "synthetic-demo-paper",
+  "pdf_path": "",
+  "total_pages": 1,
+  "total_fields": 8,
+  "found_count": 8,
+  "not_found_count": 0,
+  "page_images": [
+    {
+      "page": 1,
+      "image": "page_1.svg",
+      "width": 900,
+      "height": 1200,
+      "dpi": 72
+    }
+  ],
+  "provenances": [
+    {
+      "data_type": "age",
+      "record_id": "DEMO01",
+      "label": "Synthetic age",
+      "display": "103.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        213,
+        820,
+        268
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.1775,
+        0.9111111111111111,
+        0.22333333333333333
+      ],
+      "matched_text": "DEMO01 age 103.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO02",
+      "label": "Synthetic age",
+      "display": "110.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        291,
+        820,
+        346
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.2425,
+        0.9111111111111111,
+        0.28833333333333333
+      ],
+      "matched_text": "DEMO02 age 110.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO03",
+      "label": "Synthetic age",
+      "display": "118.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        369,
+        820,
+        424
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.3075,
+        0.9111111111111111,
+        0.35333333333333333
+      ],
+      "matched_text": "DEMO03 age 118.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO04",
+      "label": "Synthetic age",
+      "display": "125.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        447,
+        820,
+        502
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.3725,
+        0.9111111111111111,
+        0.41833333333333333
+      ],
+      "matched_text": "DEMO04 age 125.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO05",
+      "label": "Synthetic age",
+      "display": "130.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        525,
+        820,
+        580
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.4375,
+        0.9111111111111111,
+        0.48333333333333334
+      ],
+      "matched_text": "DEMO05 age 130.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO06",
+      "label": "Synthetic age",
+      "display": "138.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        603,
+        820,
+        658
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.5025,
+        0.9111111111111111,
+        0.5483333333333333
+      ],
+      "matched_text": "DEMO06 age 138.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO07",
+      "label": "Synthetic age",
+      "display": "145.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        681,
+        820,
+        736
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.5675,
+        0.9111111111111111,
+        0.6133333333333333
+      ],
+      "matched_text": "DEMO07 age 145.0 Ma",
+      "match_type": "synthetic_fixture"
+    },
+    {
+      "data_type": "age",
+      "record_id": "DEMO08",
+      "label": "Synthetic age",
+      "display": "150.0 Ma",
+      "page": 1,
+      "bbox": [
+        70,
+        759,
+        820,
+        814
+      ],
+      "bbox_norm": [
+        0.07777777777777778,
+        0.6325,
+        0.9111111111111111,
+        0.6783333333333333
+      ],
+      "matched_text": "DEMO08 age 150.0 Ma",
+      "match_type": "synthetic_fixture"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "errors": 5,
+  "warnings": 19,
+  "gating": false,
+  "files": [
+    {
+      "path": "frontend/src/app/page.tsx",
+      "errors": 0,
+      "warnings": 2,
+      "findings": [
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 43,
+          "column": 9
+        },
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 127,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/GlobeView.tsx",
+      "errors": 2,
+      "warnings": 1,
+      "findings": [
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 3,
+          "column": 29
+        },
+        {
+          "ruleId": "react-hooks/refs",
+          "severity": 2,
+          "line": 27,
+          "column": 3
+        },
+        {
+          "ruleId": "react-hooks/refs",
+          "severity": 2,
+          "line": 29,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/KpiCards.tsx",
+      "errors": 0,
+      "warnings": 1,
+      "findings": [
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 8,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/MapView.tsx",
+      "errors": 0,
+      "warnings": 1,
+      "findings": [
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 180,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/ProvenanceViewer.tsx",
+      "errors": 1,
+      "warnings": 4,
+      "findings": [
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 4,
+          "column": 18
+        },
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 4,
+          "column": 32
+        },
+        {
+          "ruleId": "react-hooks/immutability",
+          "severity": 2,
+          "line": 61,
+          "column": 36
+        },
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 63,
+          "column": 6
+        },
+        {
+          "ruleId": "@next/next/no-img-element",
+          "severity": 1,
+          "line": 263,
+          "column": 15
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/Sidebar.tsx",
+      "errors": 0,
+      "warnings": 2,
+      "findings": [
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 193,
+          "column": 37
+        },
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 205,
+          "column": 41
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/SpotTable.tsx",
+      "errors": 0,
+      "warnings": 1,
+      "findings": [
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 3,
+          "column": 50
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/StratColumn.tsx",
+      "errors": 0,
+      "warnings": 2,
+      "findings": [
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 6,
+          "column": 33
+        },
+        {
+          "ruleId": "@typescript-eslint/no-unused-vars",
+          "severity": 1,
+          "line": 50,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/components/TimelineDrawer.tsx",
+      "errors": 0,
+      "warnings": 5,
+      "findings": [
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 62,
+          "column": 5
+        },
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 72,
+          "column": 5
+        },
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 82,
+          "column": 6
+        },
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 90,
+          "column": 6
+        },
+        {
+          "ruleId": "react-hooks/exhaustive-deps",
+          "severity": 1,
+          "line": 176,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/hooks/useProvenance.ts",
+      "errors": 1,
+      "warnings": 0,
+      "findings": [
+        {
+          "ruleId": "react-hooks/set-state-in-effect",
+          "severity": 2,
+          "line": 38,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "path": "frontend/src/hooks/useSpots.ts",
+      "errors": 1,
+      "warnings": 0,
+      "findings": [
+        {
+          "ruleId": "react-hooks/set-state-in-effect",
+          "severity": 2,
+          "line": 24,
+          "column": 7
+        }
+      ]
+    }
+  ]
+}

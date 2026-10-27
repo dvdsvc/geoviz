@@ -1,0 +1,622 @@
+{
+  "snapshot_date": "2026-10-26",
+  "files": [
+    {
+      "path": "frontend/.gitignore",
+      "source_group": "geoviz",
+      "source_path": "frontend/.gitignore",
+      "source_sha256": "207e265ff4901f9ad9f96d8ce08530e04f9fc600815472a66d0a446096d654cd",
+      "sha256": "e279dc634935e6657838cbaf65c2500a9c1e48ad6dbf2c388a93fb03dff2409f",
+      "changes": [
+        "allow blank environment example"
+      ]
+    },
+    {
+      "path": "frontend/AGENTS.md",
+      "source_group": "geoviz",
+      "source_path": "frontend/AGENTS.md",
+      "source_sha256": "e3447d84251880fb34cfae09131cb4c57471529bbfe60976a3245793cf621627",
+      "sha256": "e3447d84251880fb34cfae09131cb4c57471529bbfe60976a3245793cf621627",
+      "changes": []
+    },
+    {
+      "path": "frontend/CLAUDE.md",
+      "source_group": "geoviz",
+      "source_path": "frontend/CLAUDE.md",
+      "source_sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "changes": []
+    },
+    {
+      "path": "frontend/README.md",
+      "source_group": "geoviz",
+      "source_path": "frontend/README.md",
+      "source_sha256": "60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f",
+      "sha256": "4369eb86cb932e471b8177005c3917d220ea0e915904cce2c8008dd5f4917d62",
+      "changes": [
+        "replace scaffold README with project frontend guide"
+      ]
+    },
+    {
+      "path": "frontend/eslint.config.mjs",
+      "source_group": "geoviz",
+      "source_path": "frontend/eslint.config.mjs",
+      "source_sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+      "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493",
+      "changes": []
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/next.config.ts",
+      "source_sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+      "changes": []
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "source_group": "geoviz",
+      "source_path": "frontend/package-lock.json",
+      "source_sha256": "d0c377c30216d340669bcbc3a88005847f4c662ce47ad70948ce6a9762f7170e",
+      "sha256": "d0c377c30216d340669bcbc3a88005847f4c662ce47ad70948ce6a9762f7170e",
+      "changes": []
+    },
+    {
+      "path": "frontend/package.json",
+      "source_group": "geoviz",
+      "source_path": "frontend/package.json",
+      "source_sha256": "3cbd674ff7e4fde59f6f20b79ce315bfb2a258ece0655a8fe6f42842219297d5",
+      "sha256": "6fbc71e396fc4553029b05ec6ff225e6ef21b654b809037393f0c219cb5b4942",
+      "changes": [
+        "add explicit TypeScript check command"
+      ]
+    },
+    {
+      "path": "frontend/postcss.config.mjs",
+      "source_group": "geoviz",
+      "source_path": "frontend/postcss.config.mjs",
+      "source_sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "changes": []
+    },
+    {
+      "path": "frontend/public/file.svg",
+      "source_group": "geoviz",
+      "source_path": "frontend/public/file.svg",
+      "source_sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "changes": []
+    },
+    {
+      "path": "frontend/public/globe.svg",
+      "source_group": "geoviz",
+      "source_path": "frontend/public/globe.svg",
+      "source_sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "changes": []
+    },
+    {
+      "path": "frontend/public/next.svg",
+      "source_group": "geoviz",
+      "source_path": "frontend/public/next.svg",
+      "source_sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "changes": []
+    },
+    {
+      "path": "frontend/public/vercel.svg",
+      "source_group": "geoviz",
+      "source_path": "frontend/public/vercel.svg",
+      "source_sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "changes": []
+    },
+    {
+      "path": "frontend/public/window.svg",
+      "source_group": "geoviz",
+      "source_path": "frontend/public/window.svg",
+      "source_sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/app/favicon.ico",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/app/favicon.ico",
+      "source_sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/app/globals.css",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/app/globals.css",
+      "source_sha256": "113dc23ae6e4e1eed7040436d0c29c1b5907b5f3cf10a0d6c5c39e87e696884d",
+      "sha256": "113dc23ae6e4e1eed7040436d0c29c1b5907b5f3cf10a0d6c5c39e87e696884d",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/app/layout.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/app/layout.tsx",
+      "source_sha256": "fd1a96099542961cd8e03bb5bfe7c8efb0dc1092d3a2eb16ae97865b3f5d13af",
+      "sha256": "13a4c70bb2d77c8cee0513bb40728b26061f5c2721d24362bddaca5e66802e05",
+      "changes": [
+        "visible synthetic-data label; preserve the application layout"
+      ]
+    },
+    {
+      "path": "frontend/src/app/page.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/app/page.tsx",
+      "source_sha256": "273df3e1c4725d65332b0aeb5e46dd40e8496dcc35fd8ba38a35d5b41b649c53",
+      "sha256": "273df3e1c4725d65332b0aeb5e46dd40e8496dcc35fd8ba38a35d5b41b649c53",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/ChatPanel.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/ChatPanel.tsx",
+      "source_sha256": "4bb3fe10be938b995fdd777615e372191929d3d18ab4d0e64d5afca1082ca449",
+      "sha256": "7ffdc1ba571b0c9536790e0cec53ad0bc17cc332861e1c1facaa00b99965f8cf",
+      "changes": [
+        "configurable public API base"
+      ]
+    },
+    {
+      "path": "frontend/src/components/ComparePanel.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/ComparePanel.tsx",
+      "source_sha256": "7cedd30bee1defbf3749dc6094968f3256ce0c72556ff132b64c2545d96c76cf",
+      "sha256": "7cedd30bee1defbf3749dc6094968f3256ce0c72556ff132b64c2545d96c76cf",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/ConcordiaPlot.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/ConcordiaPlot.tsx",
+      "source_sha256": "c59d018199a35538c716dd5c155dbdcbca88afa510a67be6c7be2433511027fc",
+      "sha256": "c59d018199a35538c716dd5c155dbdcbca88afa510a67be6c7be2433511027fc",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/GlobeView.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/GlobeView.tsx",
+      "source_sha256": "be4c66301849df987d65363a8268c3320dcc5c83e0d24d724fa86d02e40dc42b",
+      "sha256": "be4c66301849df987d65363a8268c3320dcc5c83e0d24d724fa86d02e40dc42b",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/KpiCards.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/KpiCards.tsx",
+      "source_sha256": "99ff0ffe301b4e25fd841bb1fb896aec2f9d063bc836922181e3992eeaefde60",
+      "sha256": "99ff0ffe301b4e25fd841bb1fb896aec2f9d063bc836922181e3992eeaefde60",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/MapView.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/MapView.tsx",
+      "source_sha256": "900659d872458c962363953e3cfa156e4286777d0afa54566b485117dd0b8bd6",
+      "sha256": "8124e5e9466b1408c8c73d3e88b09c86b720af29eab4696d82f5b4d32e6aaf8e",
+      "changes": [
+        "display the existing map-provider attribution",
+        "configurable tile provider after observed CARTO API-key error; OSM default with visible attribution"
+      ]
+    },
+    {
+      "path": "frontend/src/components/ProvenancePanel.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/ProvenancePanel.tsx",
+      "source_sha256": "cff14d426817e0acc7328391510bc1b0dcfadc3b4a60cce1b9f32ebe23102862",
+      "sha256": "cff14d426817e0acc7328391510bc1b0dcfadc3b4a60cce1b9f32ebe23102862",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/ProvenanceViewer.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/ProvenanceViewer.tsx",
+      "source_sha256": "0f313a1b39d85974e9e10d419627486e0e527f118699cf9a36900a20872bcc1b",
+      "sha256": "0f313a1b39d85974e9e10d419627486e0e527f118699cf9a36900a20872bcc1b",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/SampleDetail.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/SampleDetail.tsx",
+      "source_sha256": "d9d4645373b88646ac0c2ec02413fe4a4d1632cc678b04ea259f859e44875ba0",
+      "sha256": "d9d4645373b88646ac0c2ec02413fe4a4d1632cc678b04ea259f859e44875ba0",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/SearchBar.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/SearchBar.tsx",
+      "source_sha256": "dee2724284c97fd99ef5c29fb647493f0dfc7056c1376f3dcbae884029b25bc9",
+      "sha256": "afe8c8f9e6f7f5454d66fd788c6feca9b3ffd0c63634d35bd2262191f05fa57f",
+      "changes": [
+        "configurable public API base",
+        "escape response HTML before limited markdown formatting"
+      ]
+    },
+    {
+      "path": "frontend/src/components/Sidebar.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/Sidebar.tsx",
+      "source_sha256": "8cc5c8b1390fd52415a89ee878b87bea2a6d6803fa20a16a6709ee37cefb27da",
+      "sha256": "8cc5c8b1390fd52415a89ee878b87bea2a6d6803fa20a16a6709ee37cefb27da",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/SpotTable.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/SpotTable.tsx",
+      "source_sha256": "984ea87632ab32bc65dd1fb49c1bf7c69ab1c8aef88276213d40ca8dc1ec5ea9",
+      "sha256": "984ea87632ab32bc65dd1fb49c1bf7c69ab1c8aef88276213d40ca8dc1ec5ea9",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/StratColumn.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/StratColumn.tsx",
+      "source_sha256": "39e38f2b0c7a10fad4f53b024435ae6a5469cb3add766c88fbe0966b4d71a6a2",
+      "sha256": "39e38f2b0c7a10fad4f53b024435ae6a5469cb3add766c88fbe0966b4d71a6a2",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/TimelineDrawer.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/TimelineDrawer.tsx",
+      "source_sha256": "db1efaf9d654655186286119ce9782716cbe0d3de4154abeba78c7cf2bca05fd",
+      "sha256": "db1efaf9d654655186286119ce9782716cbe0d3de4154abeba78c7cf2bca05fd",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/components/WeightedMeanPlot.tsx",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/components/WeightedMeanPlot.tsx",
+      "source_sha256": "0ecf99961faf10f20c3b6805a04749a49bdf2c4cb3a24ba6269270c7053de294",
+      "sha256": "0ecf99961faf10f20c3b6805a04749a49bdf2c4cb3a24ba6269270c7053de294",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/config/spotFields.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/config/spotFields.ts",
+      "source_sha256": "fb8eac56e22aeae33907bc1926e2de06ba7c25d1422af6195bfd0686ecc3ffce",
+      "sha256": "fb8eac56e22aeae33907bc1926e2de06ba7c25d1422af6195bfd0686ecc3ffce",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/data/samples.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/data/samples.ts",
+      "source_sha256": "90f70c44977c0618a50fd8aec234dd224c6afa37954128a28c68e4ecf1158cdf",
+      "sha256": "90f70c44977c0618a50fd8aec234dd224c6afa37954128a28c68e4ecf1158cdf",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/data/stratColumnData.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/data/stratColumnData.ts",
+      "source_sha256": "f6a381e928338e3f2d114d4f75ec33c58304633a6cff594c0f2de3b072916e2f",
+      "sha256": "f6a381e928338e3f2d114d4f75ec33c58304633a6cff594c0f2de3b072916e2f",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/hooks/useProvenance.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/hooks/useProvenance.ts",
+      "source_sha256": "049bd8eafe141badc58de82410c18ad151be677b9ecf21aeaa83ffdef64f9b41",
+      "sha256": "049bd8eafe141badc58de82410c18ad151be677b9ecf21aeaa83ffdef64f9b41",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/hooks/useSpots.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/hooks/useSpots.ts",
+      "source_sha256": "2bd5d957decf35cadae8d43a68985b7a745d164fcf17ca17018be12a04b66bb4",
+      "sha256": "2bd5d957decf35cadae8d43a68985b7a745d164fcf17ca17018be12a04b66bb4",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/types/index.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/types/index.ts",
+      "source_sha256": "92adfe267e56b0457a4e01aec87f5a21415e15df30e51f5d0f6cd853f6111b77",
+      "sha256": "92adfe267e56b0457a4e01aec87f5a21415e15df30e51f5d0f6cd853f6111b77",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/types/provenance.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/types/provenance.ts",
+      "source_sha256": "f94a773fe3c41d8b2478a85e8c72ede3386a8a58a4f6573142e7e309aa289283",
+      "sha256": "f94a773fe3c41d8b2478a85e8c72ede3386a8a58a4f6573142e7e309aa289283",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/utils/clusterSamples.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/utils/clusterSamples.ts",
+      "source_sha256": "8b7e681618dff66415c3b63d62fe341a9b910be29b97f1098d62df138f55b4c8",
+      "sha256": "8b7e681618dff66415c3b63d62fe341a9b910be29b97f1098d62df138f55b4c8",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/utils/concordia.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/utils/concordia.ts",
+      "source_sha256": "f6092d5c123348dc725dffe4ee84ba6cab95a321f41218b2d876ec14b77bd686",
+      "sha256": "f6092d5c123348dc725dffe4ee84ba6cab95a321f41218b2d876ec14b77bd686",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/utils/globe.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/utils/globe.ts",
+      "source_sha256": "571bbff0c7a152525c7fd982a111c8cc39a7c2b1a99c6e880d28e0ced4e80fce",
+      "sha256": "571bbff0c7a152525c7fd982a111c8cc39a7c2b1a99c6e880d28e0ced4e80fce",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/utils/ics2023.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/utils/ics2023.ts",
+      "source_sha256": "4c14dfe18822f1532b363a5d3fb8c6973c6821e2850cc6b4e9b21de5f06f7b7b",
+      "sha256": "4c14dfe18822f1532b363a5d3fb8c6973c6821e2850cc6b4e9b21de5f06f7b7b",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/utils/spotCalc.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/utils/spotCalc.ts",
+      "source_sha256": "eb8e3768f3986ffe5d2097dcc53312188fae681ca5ee7c94b47e433db7290eb0",
+      "sha256": "eb8e3768f3986ffe5d2097dcc53312188fae681ca5ee7c94b47e433db7290eb0",
+      "changes": []
+    },
+    {
+      "path": "frontend/src/utils/timeline.ts",
+      "source_group": "geoviz",
+      "source_path": "frontend/src/utils/timeline.ts",
+      "source_sha256": "cbe69ae07926b589f0f350cd6c940b4acfcf20d585244f85717874619b624233",
+      "sha256": "cbe69ae07926b589f0f350cd6c940b4acfcf20d585244f85717874619b624233",
+      "changes": []
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "source_group": "geoviz",
+      "source_path": "frontend/tsconfig.json",
+      "source_sha256": "5c51df4c59f4510d8c7dadf07a5c32132228826a3b331da5e286207b4df7ef9c",
+      "sha256": "5c51df4c59f4510d8c7dadf07a5c32132228826a3b331da5e286207b4df7ef9c",
+      "changes": []
+    },
+    {
+      "path": "backend/gemini_embedding.py",
+      "source_group": "geoviz",
+      "source_path": "backend/gemini_embedding.py",
+      "source_sha256": "6a18e9a75bdb2ee4b4a7f3b6f24bf13845f3575225db9ed085dd2de0a6ca6849",
+      "sha256": "fd2a44935166b77c55772f75e27b195936e7e7fef1c62a139bf8567f9c559dea",
+      "changes": [
+        "removed credential literal"
+      ]
+    },
+    {
+      "path": "backend/graphrag_engine.py",
+      "source_group": "geoviz",
+      "source_path": "backend/graphrag_engine.py",
+      "source_sha256": "225d3212f88ee29d07e68571293b7305ea4d1403c2dc3aa576dbf9bed30770bd",
+      "sha256": "6e4252a105acf13d2df01b49718dbc29e0dba7122a1f16ede89c83b25c083411",
+      "changes": [
+        "removed credential literal",
+        "configurable external GraphRAG artifacts"
+      ]
+    },
+    {
+      "path": "backend/incremental_build.py",
+      "source_group": "geoviz",
+      "source_path": "backend/incremental_build.py",
+      "source_sha256": "f5c6cdff194da446db1208bcdec4a9a7d4e34633b64a03d9b5960bfb2346d8fc",
+      "sha256": "838fd3d493e3b8085ff359df2a70328ff03789ad31549e773b262e80f14c4482",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "backend/knowledge_graph.py",
+      "source_group": "geoviz",
+      "source_path": "backend/knowledge_graph.py",
+      "source_sha256": "87b8866ad796b8062fd0798fdcd7b41cd125c80b9a8774ccbd258d29d8e5cbde",
+      "sha256": "87b8866ad796b8062fd0798fdcd7b41cd125c80b9a8774ccbd258d29d8e5cbde",
+      "changes": []
+    },
+    {
+      "path": "backend/main.py",
+      "source_group": "geoviz",
+      "source_path": "backend/main.py",
+      "source_sha256": "b01b2085ace0ddc473deb17afb02abeb6d6360a758911495135af2490665ca1a",
+      "sha256": "faaa191d0fda669f407bcd6b6940b18b8e3e760ec1d3d2cad78d986545c33db0",
+      "changes": [
+        "lazy optional integrations; explicit synthetic demo mode; portable demo configuration",
+        "block optional model/index routes in offline demo mode"
+      ]
+    },
+    {
+      "path": "backend/rag.py",
+      "source_group": "geoviz",
+      "source_path": "backend/rag.py",
+      "source_sha256": "b9ddefe85cb24e04e3850d86a2438bde0f1a181f969d1e2695adaa018a23246d",
+      "sha256": "9f7831cb7d0e420afe212131c9a1450d34990dbbc66d94bd170dd0686cba40ed",
+      "changes": [
+        "Security-only adaptation: remove embedded provider credential fallback; read MIMO_API_KEY from environment."
+      ]
+    },
+    {
+      "path": "backend/rag_v2.py",
+      "source_group": "geoviz",
+      "source_path": "backend/rag_v2.py",
+      "source_sha256": "7a1e380abbb9cf01f9c05fd928452bb75d0c3bff926c92dab6fb9550751fc1a2",
+      "sha256": "993603d788caae98d0c8c8761434ba2ce25893567378c439f5a7690d6f21d0be",
+      "changes": [
+        "removed credential literal"
+      ]
+    },
+    {
+      "path": "backend/rag_v3.py",
+      "source_group": "geoviz",
+      "source_path": "backend/rag_v3.py",
+      "source_sha256": "9c092ddf0f3fa2d76977955b794cd9758e0eb4adb249e43242f64dba134037e6",
+      "sha256": "1d90f07e884442348ffa6635c901221b3bc70eff1eb3b4343ce101a026e0838a",
+      "changes": [
+        "Security-only adaptation: remove embedded provider credential fallback; read MIMO_API_KEY from environment."
+      ]
+    },
+    {
+      "path": "backend/sample_loader.py",
+      "source_group": "geoviz",
+      "source_path": "backend/sample_loader.py",
+      "source_sha256": "ad5dc13cd17f135e21e668ae6ef594081427197e08d202b2c73e393265f652f7",
+      "sha256": "ad5dc13cd17f135e21e668ae6ef594081427197e08d202b2c73e393265f652f7",
+      "changes": []
+    },
+    {
+      "path": "backend/samples_data.py",
+      "source_group": "geoviz",
+      "source_path": "backend/samples_data.py",
+      "source_sha256": "b509824a373e88a284e252fb4ae463f65a444bad79c94cb3c89c37cd69c92c84",
+      "sha256": "b509824a373e88a284e252fb4ae463f65a444bad79c94cb3c89c37cd69c92c84",
+      "changes": []
+    },
+    {
+      "path": "backend/vector_store.py",
+      "source_group": "geoviz",
+      "source_path": "backend/vector_store.py",
+      "source_sha256": "f464cc5e4f81f8de37734bdf957fc1f7ea90239c9064e9043df9718aaedd3b94",
+      "sha256": "eba271310d65145740ec6aa88b35fe5315af2767f4cf3e86b20616aa18bfc3f5",
+      "changes": [
+        "portable vector-store location"
+      ]
+    },
+    {
+      "path": "scripts/add_paper.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/add_paper.py",
+      "source_sha256": "d075b7f32216e0b685e44b3d55c405ff82b2b86d40c9b0f71730a9784de9c773",
+      "sha256": "44d5a1830c7c581d03046fcaa95a022d95dea3fafed5e4b29a9ad669cd28a7bd",
+      "changes": [
+        "portable historical path",
+        "sanitize historical example path in help text"
+      ]
+    },
+    {
+      "path": "scripts/batch_render_pdfs.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/batch_render_pdfs.py",
+      "source_sha256": "320f92980a07bf6befe6311630d75ebef1df946290abfc455e051987f73cfeb0",
+      "sha256": "0a4c285f7ca641e129a73fa07ca72f2caa6e46fcaca2d1624a80d0f42f678079",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "scripts/compare_hybrid.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/compare_hybrid.py",
+      "source_sha256": "449d877cb24e0e721d184a71ede84eb629c77e198d8a5de44f346ab26136d55a",
+      "sha256": "c9057dde3da5396f2e7610b5f200197af70d1e439851bc0daf9cfe0812403f27",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "scripts/convert_batch_to_geoviz.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/convert_batch_to_geoviz.py",
+      "source_sha256": "c3452a112e496a752e8faa2c45e1f624b2db01401c112c101405ec67212927cf",
+      "sha256": "3b578fdff8e23ad5dc2f6220722beaa5a09df37e835c629109668df2d879b6e1",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "scripts/generate_samples.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/generate_samples.py",
+      "source_sha256": "c6cadf09126dcf3b33f49a534b9cc8fe6f4fed4eab769fe6703ec9bff0b864c7",
+      "sha256": "0084e509e15f2b22fdab3b2b1ff1157376eee6d5f1f8ef03afc8a9f3baecea0e",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "scripts/generate_spots.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/generate_spots.py",
+      "source_sha256": "aae8e9699442189a4e4e6ff99916054fb2ce190ace6ee4b2579ae08dad3e3d17",
+      "sha256": "4614e5038c82e68e4ec8f21092a2d4cc393d6f2125ae83ed20243adc94e8ed50",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "scripts/provenance_mineru.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/provenance_mineru.py",
+      "source_sha256": "c726879a8449ebb1de4a09bf98b49942f8bf4ece1772123d0cda7d7b2a0d2f0c",
+      "sha256": "ee34b91538a7ce1162f33bf99141424456aed251ce665c942a0a07b9134fe6af",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "scripts/provenance_v3.py",
+      "source_group": "geoviz",
+      "source_path": "scripts/provenance_v3.py",
+      "source_sha256": "c929fe3778d2a041c3e0b7b34931aa694437d600eb0253fa38193c986602280c",
+      "sha256": "5ed0a6ab533f00d01f80c5f679e4eed2ea63376d4901f6b5ab9d3623212d9969",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "backend/mimo_client.py",
+      "source_group": "local-shared-client",
+      "source_path": "mimo_client.py",
+      "source_sha256": "37f14190c8288a0924fc6c4c020bfc9bbdf5e74bb7cf542d2f2e430b722c5fc5",
+      "sha256": "52b714befd15dc49a7d302e2b771a28c5997fe0c685f5564fdab9ba76eb150e7",
+      "changes": [
+        "Security-only adaptation: remove embedded provider credential fallback; read MIMO_API_KEY from environment."
+      ]
+    },
+    {
+      "path": "backend/gemini_client.py",
+      "source_group": "local-shared-client",
+      "source_path": "gemini_client.py",
+      "source_sha256": "8076fa5e0d8ad8ab7a30ecff405ba573ad8e3eaf62e61b40cfb8b4f5acd07080",
+      "sha256": "7fbdab39c1fe33fcc01c0e3a7c351642faa40b88ce55a7ee5bac9d46ed4f7457",
+      "changes": [
+        "removed credential literal"
+      ]
+    },
+    {
+      "path": "scripts/provenance_mapper.py",
+      "source_group": "local-extraction-provenance",
+      "source_path": "provenance_mapper.py",
+      "source_sha256": "c6ac0d27969d08eaa89cd7641b39bc7626d591aaba23dab3740576a4db94dcb7",
+      "sha256": "896f67d4703fb43a0d94de776844ebd7e574878b5c4b7328e51062f5a8773f2a",
+      "changes": [
+        "portable historical path"
+      ]
+    },
+    {
+      "path": "provenance/original_backend_requirements.txt",
+      "source_group": "geoviz",
+      "source_path": "backend/requirements.txt",
+      "source_sha256": "091dfb1e877cdaf4b146c9b9c664b4ab00302975316fe4e8c0e8136ba1613e62",
+      "sha256": "091dfb1e877cdaf4b146c9b9c664b4ab00302975316fe4e8c0e8136ba1613e62",
+      "changes": []
+    }
+  ]
+}

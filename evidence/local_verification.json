@@ -1,0 +1,86 @@
+{
+  "preparation_started": "2026-10-26",
+  "completed": "2026-10-27",
+  "runtime": {
+    "python": "3.12.13",
+    "node": "v25.9.0",
+    "next": "16.2.5",
+    "pymupdf": "1.26.3"
+  },
+  "typecheck": {
+    "passed": true,
+    "command": "npm --prefix frontend run typecheck"
+  },
+  "production_build": {
+    "passed": true,
+    "command": "npm --prefix frontend run build",
+    "private_log_sha256": "0550b7d20cfc4f7755d9b0bb5e1f8b9f554905cfd8df91f17995bfaed8e82e86"
+  },
+  "backend_check": {
+    "passed": true,
+    "evidence": "backend_check.json",
+    "private_log_sha256": "54fd4afbc9a48b8abd5be2afc7b46d64da821154253e442d02b747004c87048f"
+  },
+  "science_check": {
+    "passed": true,
+    "evidence": "science_check.json"
+  },
+  "lint": {
+    "passed": false,
+    "errors": 5,
+    "warnings": 19,
+    "retained_legacy_findings": true,
+    "evidence": "lint_findings.json"
+  },
+  "browser": {
+    "actually_opened": true,
+    "inputs": "synthetic fixtures only",
+    "observed": [
+      "sample selection",
+      "working map after tile configuration",
+      "weighted mean view",
+      "source page and normalized bounding-box highlight",
+      "spot table and integrated concordia view",
+      "spot exclusion and restoration",
+      "four-match keyword query"
+    ],
+    "weighted_view": {
+      "mean": 103.0,
+      "error_display": 0.58,
+      "mswd": 6.2,
+      "n": 6
+    },
+    "after_excluding_first_spot": {
+      "mean": 104.5,
+      "error_display": 0.71,
+      "mswd_display": 4.38,
+      "n": 5
+    },
+    "restored_original_selection": true,
+    "search": {
+      "query": "凝灰岩",
+      "matches": 4,
+      "explicit_demo_label": true
+    },
+    "screenshots": [
+      {
+        "path": "assets/screenshots/provenance.jpg",
+        "sha256": "a84cab6daf3bc0da9dba1f8919ae589dda52d491f3deb3810e2b82c10adee0b3"
+      },
+      {
+        "path": "assets/screenshots/weighted-mean.jpg",
+        "sha256": "eae03ea56296cd468e8b484d0079305da581c42635ad40182fcf383b53d391c5"
+      }
+    ]
+  },
+  "source_preservation": {
+    "files_checked": 108,
+    "changed_files": [],
+    "original_git_states_unchanged": true
+  },
+  "copied_source_files": 70,
+  "byte_identical_source_copies": 47,
+  "live_model_api_called": false,
+  "hosted_ci_executed": false,
+  "published": false
+}

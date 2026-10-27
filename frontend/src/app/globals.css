@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #f2f2f7;
+  --color-foreground: #1c1c1e;
+  --color-card: rgba(255, 255, 255, 0.82);
+  --color-card-solid: #ffffff;
+  --color-separator: rgba(60, 60, 67, 0.12);
+  --color-secondary-label: rgba(60, 60, 67, 0.6);
+  --color-tertiary-label: rgba(60, 60, 67, 0.3);
+  --color-accent: #007aff;
+  --color-accent-light: rgba(0, 122, 255, 0.08);
+  --color-grouped-bg: #f2f2f7;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Noto Sans SC", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  background: #c8d6e0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 14px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  color: #1c1c1e !important;
+}
+
+.leaflet-popup-tip {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+}
+
+/* iOS-style scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.25);
+}
+
+/* iOS transition utilities */
+.ios-transition {
+  transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* iOS card base */
+.ios-card {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* iOS section grouped style */
+.ios-section {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ios-section-item {
+  padding: 12px 16px;
+}
+
+.ios-section-item + .ios-section-item {
+  border-top: 0.5px solid rgba(60, 60, 67, 0.12);
+}
+
+/* Timeline drawer handle */
+.timeline-handle {
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(60, 60, 67, 0.18);
+}
+
+/* Globe SVG cursor */
+.globe-cursor {
+  cursor: grab;
+}
+.globe-cursor:active {
+  cursor: grabbing;
+}
+
+/* Concordia axis label */
+.concordia-label {
+  font-size: 10px;
+  fill: rgba(60, 60, 67, 0.6);
+  font-family: "Inter", -apple-system, sans-serif;
+}

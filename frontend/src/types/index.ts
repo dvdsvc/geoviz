@@ -1,0 +1,30 @@
+export interface Sample {
+  id: string;
+  dataId: string;
+  region: string;
+  regionProvince: string;
+  basin: string;
+  location: string;
+  city: string;
+  specificLocation: string;
+  gps: string;
+  lat: number;
+  lng: number;
+  group: string;
+  formation: string;
+  memberDepth: string;
+  sampleId: string;
+  rockType: string;
+  datingMineral: string | null;
+  datingSystem: string | null;
+  technique: string | null;
+  ageMa: number | null;
+  error: number | null;
+  mswd: number | null;
+  nGrains: number | null;
+  ageType: string | null;
+  physicalMethod: string | null;
+  distributionState: string | null;
+  reference: string;
+  remarks: string;
+}
