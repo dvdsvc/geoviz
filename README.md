@@ -93,3 +93,5 @@ No model API was called during showcase preparation. Hardcoded credential defaul
 This is a local review snapshot prepared without changing the original project. The [source manifest](provenance/source_manifest.json) distinguishes byte-identical research files from credential/path, demo-startup and small presentation adaptations. Numerical calculation routines and provenance-matching algorithms are preserved. New synthetic fixtures, offline keyword search, checks and documentation are packaging additions.
 
 The frontend Git history contains only the initial Create Next App scaffold; the application changes exist locally and are largely uncommitted. That history cannot establish detailed personal authorship. Confirm author/contributor attribution, rights to reused project components, dataset permissions and the final license before public redistribution. [Provenance](docs/provenance.md) · [Third-party notices](THIRD_PARTY_NOTICES.md).
+
+Credential configuration and release checks: [Security guide](docs/security.md).
