@@ -18,7 +18,7 @@ flowchart LR
     P --> F
 ```
 
-Extraction and autonomous scientific research are adjacent projects. GeoViz consumes normalized outputs and provides a human-facing exploration/provenance workflow. It does not run the full extraction pipeline or automatically execute the separate DeepResearcher organization from its frontend.
+Extraction and autonomous scientific research are adjacent projects. GeoViz consumes normalized outputs and provides a human-facing exploration/provenance workflow. It does not run the full extraction pipeline or automatically execute the separate Ariadne organization from its frontend.
 
 ## Current frontend data flow
 
