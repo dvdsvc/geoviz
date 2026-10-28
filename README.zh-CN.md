@@ -94,4 +94,4 @@ provenance/     原始来源哈希与明确的适配说明
 
 前端 Git 历史只有 Create Next App 初始提交，实际应用修改主要保存在尚未提交的本地文件中，不能据此推断详细个人贡献。公开前需要确认作者与协作者署名、复用代码权属、数据使用权限和最终许可证。[来源说明](docs/provenance.md) · [第三方说明](THIRD_PARTY_NOTICES.md)。
 
-凭据配置与发布前检查：[安全说明](docs/security.md)。
+运行配置：[环境变量](docs/security.md)。

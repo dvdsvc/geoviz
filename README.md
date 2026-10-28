@@ -94,4 +94,4 @@ This is a local review snapshot prepared without changing the original project. 
 
 The frontend Git history contains only the initial Create Next App scaffold; the application changes exist locally and are largely uncommitted. That history cannot establish detailed personal authorship. Confirm author/contributor attribution, rights to reused project components, dataset permissions and the final license before public redistribution. [Provenance](docs/provenance.md) · [Third-party notices](THIRD_PARTY_NOTICES.md).
 
-Credential configuration and release checks: [Security guide](docs/security.md).
+Configuration: [Environment variables](docs/security.md).
