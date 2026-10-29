@@ -1,10 +1,12 @@
-# GeoViz · Geochronology Exploration and Provenance
+# GeoViz
 
-![GeoViz workflow](assets/mark.svg)
+**Exploring Traceable Scientific Data Analysis and Source Attribution.**
 
 **English** · [简体中文](README.zh-CN.md)
 
-A research platform for exploring literature-derived geochronology records through a linked **map → sample → analytical spot → age calculation → source-page** workflow. The application combines a Next.js/React interface, a FastAPI service, geochronology utilities and several retrieval experiments. This independent showcase ships with **8 synthetic samples and 48 synthetic spots**; private research observations and papers are excluded.
+**Research question:** How can users inspect linked records, calculations and source evidence within one workflow? **Method:** A Next.js/React interface and FastAPI service connect interactive selection, statistical tools, structured retrieval and page-level field highlighting. **Key findings:** An 8-record, 48-measurement synthetic showcase exercises linked browsing, calculation and source inspection; frontend and backend reproduce the same controlled weighted-mean result.
+
+![GeoViz workflow](assets/mark.svg)
 
 ## 🔬 Research purpose
 
