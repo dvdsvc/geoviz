@@ -27,7 +27,9 @@ Extracted geological records become useful when a researcher can inspect their l
 <img src="assets/screenshots/provenance.jpg" width="420" alt="Generated source page and field highlight" />
 </p>
 
-Local screenshot using synthetic inputs: source-field highlighting. The basemap is temporarily disabled pending boundary review.
+Local screenshot using synthetic inputs: source-field highlighting.
+
+**2026-11-17:** The previous basemap has been temporarily disabled because some place names and boundary representations require further verification for academic use.
 
 ## ⚙️ Run the synthetic showcase
 
