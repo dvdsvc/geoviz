@@ -24,11 +24,10 @@
 |检索探索|v2 结构化／向量／知识图谱混合检索；独立的社区报告 GraphRAG 适配器|[检索路径说明](docs/architecture.md)|
 
 <p>
-<img src="assets/screenshots/weighted-mean.jpg" width="420" alt="合成观测的加权年龄视图" />
 <img src="assets/screenshots/provenance.jpg" width="420" alt="生成的来源页面与字段高亮" />
 </p>
 
-以上是本地实际运行截图，使用合成输入展示年龄计算与来源字段定位。
+以上是使用合成输入的来源字段定位截图。底图因边界问题暂时停用，待核验后替换。
 
 ## ⚙️ 运行合成数据展示
 

@@ -46,7 +46,7 @@ This is a local research prototype. No deployment infrastructure, hosted service
 
 `NEXT_PUBLIC_API_URL` selects the API base, defaulting to `http://localhost:8000`. It must be set before starting/rebuilding the frontend. During local review isolated ports were used to avoid interfering with existing projects; they are not hardcoded into the source.
 
-The original CARTO tile address displayed an API-key-required message in the local review. The showcase now uses configurable `NEXT_PUBLIC_TILE_URL` and `NEXT_PUBLIC_TILE_ATTRIBUTION`, with the standard OpenStreetMap raster URL and visible attribution as defaults. Browser map tiles require network access; scientific calculations and the synthetic API checks run locally. Use the provider's published URL and attribution, retain browser caching/referrer behavior, and do not bulk-download or prefetch tiles. The default provider's requirements are documented in the [OSMF tile usage policy](https://operations.osmfoundation.org/policies/tiles/).
+The basemap is temporarily disabled pending boundary review. The map retains its sample points on a neutral background and does not request tiles, including when legacy tile environment variables are set. Before restoring a basemap, review its boundary representation, applicable map requirements and provider terms.
 
 ## Research inputs
 

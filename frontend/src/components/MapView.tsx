@@ -74,13 +74,10 @@ export default function MapView({ samples, selectedIds, onSelect }: MapViewProps
     const map = L.map(mapRef.current, {
       zoomControl: false,
       attributionControl: true,
+      maxZoom: 19,
     }).setView([35, 108], 5);
 
-    L.tileLayer(process.env.NEXT_PUBLIC_TILE_URL || "https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: process.env.NEXT_PUBLIC_TILE_ATTRIBUTION || '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
-
+    // Basemap requests are disabled until a replacement passes boundary review.
     L.control.zoom({ position: "bottomright" }).addTo(map);
 
     const clusterLayers = L.layerGroup().addTo(map);
@@ -206,7 +203,15 @@ export default function MapView({ samples, selectedIds, onSelect }: MapViewProps
     }
   }, [selectedIds]);
 
-  return <div ref={mapRef} className="w-full h-full" />;
+  return (
+    <div className="relative w-full h-full bg-[#eef1ef]">
+      <div ref={mapRef} className="w-full h-full" />
+      <div role="status" className="pointer-events-none absolute bottom-16 left-1/2 z-[800] w-max max-w-[90%] -translate-x-1/2 rounded-xl border border-amber-200 bg-amber-50 px-4 py-2 text-center text-sm text-amber-900 shadow-sm">
+        底图已暂停，等待边界核验与替换；当前仅显示样品点。<br />
+        Basemap disabled pending review; sample points remain visible.
+      </div>
+    </div>
+  );
 }
 
 function setupPopup(marker: L.Marker, s: Sample) {

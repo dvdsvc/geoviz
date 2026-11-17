@@ -24,11 +24,10 @@ Extracted geological records become useful when a researcher can inspect their l
 |Retrieval experiments|v2 hybrid structured/vector/graph retrieval; separate community-report GraphRAG adapter|[Retrieval boundaries](docs/architecture.md)|
 
 <p>
-<img src="assets/screenshots/weighted-mean.jpg" width="420" alt="Weighted-age view with synthetic observations" />
 <img src="assets/screenshots/provenance.jpg" width="420" alt="Generated source page and field highlight" />
 </p>
 
-Actual local screenshots using synthetic inputs: age calculation and source-field highlighting.
+Local screenshot using synthetic inputs: source-field highlighting. The basemap is temporarily disabled pending boundary review.
 
 ## ⚙️ Run the synthetic showcase
 
